@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-color: #a5ebd2;
+    font-family: 'Roboto', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #4EB18E;
+}
+
+.header_logo{
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.header_links{
+    font-size: 1.25rem;
+    display: flex;
+    padding-right: 2rem;
+    gap: 20px
+}
+
+.header_link:hover{
+    text-decoration: underline;
+}
+
+.header_login{
+    font-size: 1rem;
+    padding-right: 2rem;
+    font-weight: 300;
+}
+
+.main_adress{
+    font-weight: 300;
+    padding: 1rem;
+}
+
+.main_product{
+    padding: 0 1.5rem;
+}
+
+.product{
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_photo{
+    width: 50%;
+    padding: 1rem 0;
+}
+
+.product_buy{
+    background-color: #ffffff;
+    width: 35%;
+    margin: 1.5rem;
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: 1rem;
+}
+
+.product_old_price{
+    color: #ff0000;
+    text-decoration: line-through;
+    padding-top: .3rem;
+}
+
+.product_new_price{
+    padding-top: .3rem;
+}
+
+.product_shippment{
+    color: #008000;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.location_icon{
+    width: 18px;
+}
+
+.location{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.product_qtt{
+    padding-left: .3rem;
+}
+
+.product_number{
+    background-color: #DFD6C0;
+    padding: 12px 16px;
+    border: .3px solid #A49D8D;
+    border-radius: .4rem;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    gap: .5rem
+}
+
+.buttons_buy{
+    background-color: #D167EB;
+    width: 35vh;
+    text-align: center;
+    padding: .3rem 0;
+    border-radius: 1rem;
+}
+
+.buttons_add{
+    background-color: #9D4EB0;
+    width: 35vh;
+    text-align: center;
+    padding: .3rem 0;
+    border-radius: 1rem;
+}
+
+.footer{
+    background-color: #34765F;
+    text-align: center;
+    padding: 1rem;
+}
